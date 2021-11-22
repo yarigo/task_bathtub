@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Bathtub from './Bathtub';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <main>
+      <Bathtub />
+    </main>
   </React.StrictMode>,
   document.getElementById('root')
 );

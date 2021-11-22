@@ -1,0 +1,27 @@
+.Bathtub-wrapper {
+  display: flex;
+}
+
+.Bathtub-items {
+  display: flex;
+  flex-direction: column-reverse;
+  border: solid 1px;
+  margin: 8px;
+  height: 100px;
+  min-width: 250px;
+}
+
+.Bathtub-item {
+  height: 20px;
+  background-color: blue;
+}
+
+.Bathtub-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.Bathtub-actions button {
+  margin: 4px;
+  padding: 8px;
+}
